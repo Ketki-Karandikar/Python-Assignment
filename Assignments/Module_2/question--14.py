@@ -23,4 +23,4 @@ k = 'Python Programming'
 #   n   16  -2
 #   g   17  -1
 
-print(k[:-16                                                                                                                                                                                        :-1])
+print(k[:-16:-1])
