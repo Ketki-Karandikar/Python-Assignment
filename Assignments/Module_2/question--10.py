@@ -3,7 +3,7 @@
 x = int(input("Enter num1 : "))
 y = int(input("Enter num2 : "))   # Boolean type
                                                
-if x==y or abs(x - y) == 5 or (x + y) == 5:     # will print true if the addition or substraction of the values
+if x==y or (x - y) == 5 or (x + y) == 5:     # will print true if the addition or substraction of the values
     print("True")                               # are equal to 5
 else:                                           # or will print False
     print("False")
