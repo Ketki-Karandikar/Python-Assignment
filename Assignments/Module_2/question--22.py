@@ -3,11 +3,11 @@
 # instead of the empty string.
 
 # Taking input from the user
-inputString = input("Enter the string : ")
+str_1 = input("Enter the string : ")
  
-#Creating formatted string
-newString = "{}{}".format(inputString[0:2], inputString[-2:])
+# to print the str_1
+str_2 = "{}{}".format(str_1[0:2], str_1[-2:])
  
-#Printing the new String
-print("Input string = " + inputString)
-print("New String = " + newString)
+#Printing the str_2
+print("str_1 = " + str_1)
+print("str_2 = " + str_2)
