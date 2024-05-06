@@ -2,6 +2,6 @@
 
 x = int(input("Enter num : "))   
 
-sum_num = (x*(x+1))/2       # formula for first positive n numbers
+sum = (x*(x+1))/2       # formula for first positive n numbers
 
-print("Sum of the first", x, "positive integers:", sum_num)    
+print("Sum of the first", x, "positive integers:", sum)    
