@@ -2,12 +2,15 @@
 # 2 chars from a given a string. If the string length is less than 2, return
 # instead of the empty string.
 
-# Taking input from the user
-str_1 = input("Enter the string : ")
- 
-# to print the str_1
-str_2 = "{}{}".format(str_1[0:2], str_1[-2:])
- 
-#Printing the str_2
-print("str_1 = " + str_1)
-print("str_2 = " + str_2)
+def string_starts_ends(str):   # Define the string start and end
+    
+    str = input("Enter the string : ")    # Get the user defined string as input
+    
+    if len(str) < 2:    # If the length of string is less than 2
+    
+        return ''    # return the same string
+    
+    return str[0:2] + str[-2:]    # If more than 2 then print the first 2 characters of the string
+                                   # and last 2 characters of the string
+
+print(string_starts_ends(str))           
